@@ -17,9 +17,12 @@ nSpectra = len(file)
 #Output file
 outputFile = '/Users/henriksogaard/Downloads/mgf-test-files/T0-LT2(10).mgf'
 
+#Set the value of n
+n = 10
+
 #Selection
 for i in range(nSpectra):
-    if i % 10 == 0:
+    if i % n == 0:
         mgf.write([file[i]], outputFile)
         
 
