@@ -12,6 +12,8 @@ import random
 
 #File path
 file = mgf.read('/Users/henriksogaard/Downloads/split_test/split-test.mgf', use_index = True)
+
+#Number of spectra in the file
 nSpectra = len(file) 
 
 #Output file
